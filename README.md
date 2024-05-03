@@ -13,6 +13,9 @@ This repository contains implementations of convolutional neural network (CNN) a
 
 ### Performance Comparison
 
+The training was conducted on **two GeForce RTX 4070 GPUs**.
+
+
 | Batch Size | 1 GPU Time              | 1 GPU Test Accuracy | 2 GPUs Time             | 2 GPUs Test Accuracy |
 |------------|-------------------------|---------------------|--------------------------|----------------------|
 | 128        | 3 min 10 sec            | 72.8%               | 5 min 11 sec             | 73%                  |
