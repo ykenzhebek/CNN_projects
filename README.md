@@ -13,7 +13,7 @@ This repository contains implementations of convolutional neural network (CNN) a
 
 ### Performance Comparison
 
-The training was conducted on **two GeForce RTX 4070 GPUs**.
+The training was conducted on **two GeForce RTX 4070 GPUs**. The following table contains the results for **epoch = 10**.
 
 
 | Batch Size | 1 GPU Time              | 1 GPU Test Accuracy | 2 GPUs Time             | 2 GPUs Test Accuracy |
@@ -26,8 +26,8 @@ The training was conducted on **two GeForce RTX 4070 GPUs**.
 
 Note: Out of memory error occurred for batch size 2048.
 
-Additional Experiment:
-- Training for 50 epochs with batch size 1024:
+#### Additional Experiment:
+- Training for **50 epochs** with batch size 1024:
   - 1 GPU: 14 min 29 sec, 73% test accuracy
   - 2 GPUs: 9 min 53 sec, 73% test accuracy
 
